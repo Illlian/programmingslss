@@ -1,3 +1,11 @@
+---
+tags:
+  - notes
+  - programming
+  - slss
+  - y2023
+---
+
 # Headings
 to create headings we use hash symbol
 we can use different "'level'" headings
