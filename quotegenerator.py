@@ -12,3 +12,7 @@ print("No matter what comes next, EVERYTHING IS FINE")
 # Ast the user for favourite quote
 input("What is your favourite qoute")
 print("Nice")
+
+
+ff = input("What food do you like?")
+print(f"eugh i hate {ff}")

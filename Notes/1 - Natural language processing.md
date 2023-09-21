@@ -22,9 +22,21 @@ We us hash symbols to make comments
 
 # Input
 We grab the information from the user using ```input()
-
 ```python
 input()
 input("prompt")
 
 ```
+
+# Variables
+Variables allow us to store information for the time the app is running.
+
+```python
+Favourite food = input("What is your favourite food?")
+```
+Favourite food -.> name of the variable
+= -> assignment operator
+input... -> value
+
+# [[Strings]]
+
