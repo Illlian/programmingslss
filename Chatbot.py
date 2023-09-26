@@ -3,6 +3,7 @@
 # Date: 21.09.23 / 25.09.23
 
 #Greet the user
+#Pause in between lines of dialogue
 #Get the users name, store it in a variable
 #Respond with the users name
 #Ask for their fav food
@@ -13,10 +14,16 @@
 #Chose one random from the list
 #Print chosen responce
 
+import random
+import time
+
 print("Hi!")
+time.sleep(1)
 print("I am a crude chatbot. You can talk to me")
+time.sleep(0.5)
 uname = input("What`s your name?")
 print(f"Nice to meet you, {uname}")
+time.sleep(2)
 ff = input(f"What is your favourite food {uname}?")
 
 list_of_ff_resp = [
@@ -28,6 +35,6 @@ list_of_ff_resp = [
     "I approve of your choice"
 ]
 
-import random
 rr = random.choice(list_of_ff_resp)
+time.sleep(1)
 print(rr)
