@@ -7,9 +7,11 @@
 #Get the users name, store it in a variable
 #Respond with the users name
 #Ask for their fav food
-#Respond with something appropriate
+#If they answer pasta, respond to something related
 
+#Respond with something appropriate
 #Respond with something not too repetive
+
 #Create a list of responces
 #Chose one random from the list
 #Print chosen responce
@@ -21,10 +23,11 @@ print("Hi!")
 time.sleep(1)
 print("I am a crude chatbot. You can talk to me")
 time.sleep(0.5)
-uname = input("What`s your name?")
+uname = input("What`s your name? ")
 print(f"Nice to meet you, {uname}")
 time.sleep(2)
-ff = input(f"What is your favourite food {uname}?")
+ff = input(f"What is your favourite food {uname}? ")
+
 
 list_of_ff_resp = [
     f"You have a weird taste. {ff} is disgusting",
@@ -34,7 +37,14 @@ list_of_ff_resp = [
     "Cool, i also like it!",
     "I approve of your choice"
 ]
-
 rr = random.choice(list_of_ff_resp)
-time.sleep(1)
-print(rr)
+
+if ff == "pasta" or ff == "Pasta":
+    print("Pasta sounds nice")
+elif ff == "mashed potatoes":
+    print("You are a God!")
+elif ff == "spravdgniy ukrayinckiy borshch":
+    print("Food choice approved. Be proud if your country!")
+else:
+    time.sleep(1)
+    print(rr)

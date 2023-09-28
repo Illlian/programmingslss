@@ -43,4 +43,9 @@ input... -> value
 # [[Design]]
 
 # [[Lists]]
+
 # [[Modules]]
+
+# [[Conditionals]]
+
+# [[Boolean]]
