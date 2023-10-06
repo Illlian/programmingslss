@@ -13,6 +13,9 @@
 # If they answer with an italian dish, suggest an italian restaurant
 # List all the italian dishes
 
+# Add one more type of food and suggestion
+
+
 import random
 import time
 
@@ -23,13 +26,22 @@ time.sleep(1)
 ff = input("What is your favourite food? ")
 
 itf = ["pizza", "pasta", "tiramisu"]
+jpf = ["sushi", "mochi", "kimchi"]
 
 if ff.lower().strip(",.?! ") in itf:
     print("You probably like italian food")
     time.sleep(1)
     print("You can go to [random italian restaurant name]")
     time.sleep(1)
-    print("here is the adress [random adress]")
+    print("Here is the adress [random adress]")
+
+
+elif ff.lower().strip(",.?! ") in jpf:
+    print("You probably like japanese food")
+    time.sleep(1)
+    print("You can go to [random japanese restaurant name]")
+    time.sleep(1)
+    print("Here is the adress [random adress]")
 else:
     print("I have no idea what it is or where to find it")
 
