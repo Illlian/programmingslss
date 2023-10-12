@@ -72,4 +72,37 @@ names = ['Elizabeth Singleton', 'Raymond Mitchell', 'Steven Murphy', 'Daniel Ter
 for name in names:
 	if name == "Jasmine Soto":
 		print("We found her!")
+		break
+    else:
+       print("I guess they are not here")
+		break
 ```
+
+# Iterating n number of times
+
+We can iterate for any number of times.
+In Python, we do it in a weird way
+
+```python
+for <name> in range(,sonme positive number>):
+     <code block>
+```
+
+eg:
+```python
+# Prints out random text 10 times
+for __ in range(10):
+	print("Random text")
+```
+
+When we iterate over lists, the item tells us the current element we are on.
+
+When we iterate using range, the item tells us how many times we have looped since the beginning.
+
+Eg:
+```python
+for i in range(5):
+	print(i)
+```
+
+`i` is a counter (Counts how many times we are looping)
