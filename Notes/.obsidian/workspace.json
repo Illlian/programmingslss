@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bbbd9646aa639871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Iteration.md",
+                "file": "Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Iteration.md",
+                "file": "Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Iteration.md"
+                "file": "Type.md"
               }
             }
           },
@@ -157,22 +170,22 @@
       "command-palette:Відкрити меню команд": false
     }
   },
-  "active": "5cb16c865c57ff27",
+  "active": "bbbd9646aa639871",
   "lastOpenFiles": [
-    "loop_practice_newyear.py",
-    "Modules.md",
+    "Strings.md",
+    "Boolean.md",
     "Conditionals.md",
     "Design.md",
     "Errors.md",
     "Headers.md",
     "Iteration.md",
     "Lists.md",
-    "Strings.md",
-    "Type.md",
-    "List.md",
-    "1 - Natural language processing.md",
-    "Boolean.md",
     "Markdown (re)introduction.md",
+    "Modules.md",
+    "Type.md",
+    "1 - Natural language processing.md",
+    "loop_practice_newyear.py",
+    "List.md",
     "().md"
   ]
 }
