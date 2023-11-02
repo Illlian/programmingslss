@@ -25,8 +25,8 @@ There are some **special** functions that help to convert data from one type to 
 intro_string = "my_age"
 my_age = 16
 
-"My name is" + "random name"
-"my name is" + " " + "random name"
+"My name is" + "random name"  # My nammes israndom name
+"My name is" + " " + "random name" # My name is random name
 
-strinng + my_age
+strinng + my_age # Error
 ```
