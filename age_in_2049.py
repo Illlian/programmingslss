@@ -1,6 +1,6 @@
 # Question 1
 # illia Nyshpor
-# Date: 02.11.2
+# Date: 02.11.23
 
 print("I will heplp you find out how old you will be in 2049")
 print("What year it is right now? ")
