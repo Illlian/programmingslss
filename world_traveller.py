@@ -25,6 +25,6 @@ for continent in continents:
       num_continents +=1
       print(num_continents)
         
-print(f"Cool, you have visites {num_continents}/7 continents")
+print(f"Cool, you have visites {num_continents}/7 continents!")
 
 
