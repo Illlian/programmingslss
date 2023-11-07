@@ -9,13 +9,14 @@ rating_cources = 0
 num_cources = 0
 
 for i in range (cources):
-    rating = float(input("How do you rate cource out of 5? "))
+    rating = float(input(f"How do you rate your cource {num_cources +1} out of 5? "))
     rating_cources += rating / cources
+    num_cources = num_cources +1
 
 
 if rating_cources < 1:
-    print(f"Your overall score is {rating_cources :.1f}, Ouch")
+    print(f"Your overall score is {rating_cources :.1f} /5, Ouch")
 elif 3 > rating_cources > 1:
-    print(f"Your overall score is {rating_cources:.1f}, Not a bad semester")
+    print(f"Your overall score is {rating_cources:.1f} /5, Not a bad semester")
 elif rating_cources > 3:
-    print(f"Your overall score is {rating_cources:.1f}, Glad to hear that")
+    print(f"Your overall score is {rating_cources:.1f} /5, Glad to hear that")

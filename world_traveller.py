@@ -18,12 +18,15 @@ num_continents = 0
 
 for continent in continents:
 
-    print(continent)
-    total = input().lower
+  print(continent)
+  total = input().strip(",.?! ").lower()
 
-    if total == "yes":
-      num_continents +=1
-      print(num_continents)
+  if total == "yes":
+     num_continents +=1
+  elif total == "no":
+     print("That's too bad")
+  else:
+     print("ok")  
         
 print(f"Cool, you have visites {num_continents}/7 continents")
 
