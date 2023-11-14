@@ -29,6 +29,12 @@ profile = [
     "Subway",
 ]
 
+mss = 0
+lss = 7
+
+similar_name = ""
+not_similar_name = ""
+
 with open("./data.csv") as f:
     header = f.readline()
 
@@ -39,9 +45,20 @@ with open("./data.csv") as f:
          sim_score = 0
 
          for item in profile:
-             if item in current_likes:
-                 sim_score +=1
+            if item in current_likes:
+               sim_score +=1
 
-print(f"{name} - Score: {sim_score}")
+         print(f"{name} - Score: {sim_score}")
+
+         if sim_score > mss:
+             mss = sim_score
+             similar_name = name
+
+         elif sim_score < lss:
+             lss = sim_score
+             not_similar_name = name
 
 
+
+print(f"Most similar person: {similar_name}, Score: {mss}")
+print(f"Least similar person: {not_similar_name}, Score: {lss}")
