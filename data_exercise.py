@@ -113,7 +113,32 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # number that is even. There are a couple of ways to solve this.
 # You can either do this with the string or with the int.
 
+with open("./data_example.csv", encoding="utf-8") as f:
+    f.readline()
+    credit_number = 0
 
+    for line in f:
+        datalist = line.split(",")
+
+        number = datalist[3]
+
+        evenumber = int(number[11])
+
+        if evenumber // 2:
+            credit_number += 1
+    print(f"{credit_number} people have an even credit card")
+
+        
 # Problem 7:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
+
+with open("./data_example.csv", encoding="utf-8") as f:
+    f.readline()
+
+    for line in f:
+        datalist = line.split(",")
+
+        food = datalist[1]
+
+        
