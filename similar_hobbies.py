@@ -16,8 +16,6 @@ ss = 0
 
 
 
-
-
 for hobbie in first_hobbies:
     if hobbie in second_hobbies:
         ss += 1

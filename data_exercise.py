@@ -99,8 +99,9 @@ with open("./data_example.csv", encoding="utf-8") as f:
 
     for line in f:
         datalist = line.split(",")
-
-        city = datalist[4]
+   
+        city = datalist[4].rstrip()
+       
 
         if city == "Guangzhou":
           live += 1
@@ -135,10 +136,29 @@ with open("./data_example.csv", encoding="utf-8") as f:
 
 with open("./data_example.csv", encoding="utf-8") as f:
     f.readline()
+    ff = 0
+
 
     for line in f:
         datalist = line.split(",")
 
         food = datalist[1]
+        # ages = [5, 12, 17, 18, 24, 32]
+
+        #print(food)
+
+        
+
+  
+        # for item in food:
+        #     def myFunc(x):
+        #      if x == item:
+        #       return False
+        #     ff_items = filter(myFunc, food) 
+        #     print(ff_items)    
+
+
+# adults = filter(myFunc, ages)
+
 
         
