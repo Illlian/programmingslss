@@ -3,7 +3,6 @@
 # Illia Nyshpor
 # Date: 14.11.23
 
-
 first_hobbies = input(" What are your hobbies? ").lower().split()
 second_hobbies = input(" What are your hobbies? ").lower().split()
 

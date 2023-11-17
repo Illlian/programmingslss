@@ -3,7 +3,7 @@ from pathlib import Path
 
 # File Exercises
 # Author: illia Nyshpor
-# Date: 16.11.23
+# Date: 16.11.23 / 17.11.23
 
 """Instructions:
 
@@ -103,10 +103,12 @@ with open("./data_example.csv", encoding="utf-8") as f:
         city = datalist[4].rstrip()
        
 
+        city = datalist[4].rstrip()
+
         if city == "Guangzhou":
           live += 1
     
-    print(f"{live} people are from Guangzhou ")
+    print(f"{live} person is from Guangzhou ")
 
 
 # Problem 7:
@@ -127,6 +129,7 @@ with open("./data_example.csv", encoding="utf-8") as f:
 
         if evenumber // 2:
             credit_number += 1
+
     print(f"{credit_number} people have an even credit card")
 
         
