@@ -133,7 +133,6 @@ with open("./data_example.csv", encoding="utf-8") as f:
     print(f"{credit_number} people have an even credit card")
 
         
-        
 # Problem 8:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
