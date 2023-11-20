@@ -137,6 +137,3 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
 
-
-
-        
