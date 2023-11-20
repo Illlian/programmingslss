@@ -109,7 +109,7 @@ with open("./data_example.csv", encoding="utf-8") as f:
     print(f"{live} people are from Guangzhou ")
 
 
-# Problem 6:
+# Problem 7:
 # Just one is from Guangzhou! Alright, last one. How many people have a credit card
 # number that is even. There are a couple of ways to solve this.
 # You can either do this with the string or with the int.
@@ -130,35 +130,10 @@ with open("./data_example.csv", encoding="utf-8") as f:
     print(f"{credit_number} people have an even credit card")
 
         
-# Problem 7:
+# Problem 8:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
 
-with open("./data_example.csv", encoding="utf-8") as f:
-    f.readline()
-    ff = 0
-
-
-    for line in f:
-        datalist = line.split(",")
-
-        food = datalist[1]
-        # ages = [5, 12, 17, 18, 24, 32]
-
-        #print(food)
-
-        
-
-  
-        # for item in food:
-        #     def myFunc(x):
-        #      if x == item:
-        #       return False
-        #     ff_items = filter(myFunc, food) 
-        #     print(ff_items)    
-
-
-# adults = filter(myFunc, ages)
 
 
         
