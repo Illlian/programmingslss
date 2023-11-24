@@ -17,9 +17,6 @@ def  print_area_of_a_square(sidelength: float) ->  None:
 print_area_of_a_square(12.2) 
 print_area_of_a_square(13)  
 
-	
-
-
 
 def area_of_a_square(sidelength: float) -> float:
     """Returns the area of a square with given
