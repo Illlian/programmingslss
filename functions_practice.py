@@ -39,3 +39,21 @@ print_area_of_a_square(13)
 print(area_of_a_square(2))
 
 print(print_area_of_a_square(2))
+
+
+# Question 1
+
+def stars(num_stars: int) -> str:
+    """Return the same number of stars as you put in"""
+
+    sr = "*" * num_stars
+
+    return sr
+
+print(stars(8))
+
+
+      
+
+      
+      
