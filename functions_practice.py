@@ -1,6 +1,6 @@
 # Functions practice
 # Illia Nyshpor
-# Date: 24.11.23
+# Date: 24.11.23 
 
 def  print_area_of_a_square(sidelength: float) ->  None:
 	"""Calculates the area of a square.
@@ -50,7 +50,40 @@ def stars(num_stars: int) -> str:
 print(stars(8))
 
 
-      
+# Question 2
 
-      
-      
+def biggest_of_threee(num_one: int, num_two: int, num_three: int) -> int:
+     
+     if num_one > num_two and num_one > num_three:
+          return num_one
+     elif num_two > num_one and num_two > num_three:
+          return num_two
+     elif num_three > num_two and num_three > num_one:
+          return num_three
+     
+print(biggest_of_threee(1, 2, 3))
+
+
+# Question 3
+
+def pyramid(num_st: int) -> str:
+    st = "*"
+    pr = 1
+    for _ in range(num_st):
+        print(st * pr)
+        pr = pr + 1
+           
+pyramid(5)
+
+
+# Question 4
+
+def pyramid_mirror(num_st: int) -> str:
+    on = "     *"
+    st = "*"
+    pr = 1
+    for _ in range(num_st):
+        print(on * st * pr)
+        pr = pr + 1
+           
+pyramid_mirror(5)
