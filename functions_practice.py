@@ -79,11 +79,13 @@ pyramid(5)
 # Question 4
 
 def pyramid_mirror(num_st: int) -> str:
-    on = "     *"
+    on = " "
     st = "*"
     pr = 1
+    ps = num_st - 1
     for _ in range(num_st):
-        print(on * st * pr)
+        print(f"{on * ps}{st * pr}")
         pr = pr + 1
+        ps = ps - 1
            
 pyramid_mirror(5)
