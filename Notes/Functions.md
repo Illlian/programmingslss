@@ -53,3 +53,28 @@ def linear_search(l: list, item: any) -> int:
 		counter += 1
 	return -1
 ```
+
+## Recursion
+
+Recursion is an *elegant* way to repeat a pattern 
+
+Fractals are examples of patterns that can be described recursively 
+
+A recursive function must have 3 parts:
+1. A function
+2. The function should call itself
+3. A base case  (where a function stops calling itself)
+
+### Factorials and recursion
+
+```
+0! =1
+1! = 1
+
+2! = 1*2
+2! = 1!*2
+
+3! = 1*2*3
+3! = 2!*3*
+```
+
