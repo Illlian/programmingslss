@@ -7,7 +7,7 @@ from PIL import Image
 def pixel_to_name(pixel: tuple) -> str:
     red, green, blue = pixel 
 
-    if red < 55 and blue < 55 and green > 140:
+    if red < 55 and blue < 55 and green > 130:
         return "green"
     else:
         return "colour unknown"
