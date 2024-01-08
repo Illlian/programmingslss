@@ -25,6 +25,7 @@ def winter_holiday(gb: str) -> str:
         return bad
 
 
+
 def main() -> None:
     print(winter_holiday("good"))
 
