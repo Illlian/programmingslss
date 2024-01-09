@@ -12,7 +12,7 @@ def winter_holiday(gb: str) -> str:
     choose good or bad event
     
     Returns:
-    random event during the holidays"""
+     a random good and bad event during the holidays"""
 
     ge = ["Got a  new phone", "Went book shopping with a friend", "Dyed my hair a different colour"]
     be = ["Did not get to travel", "Spent too much time indoors", "Was not left alone to relax by my family"]
@@ -23,6 +23,7 @@ def winter_holiday(gb: str) -> str:
     elif gb.lower().strip(",.?!") == "bad":
         bad = random.choice(be)
         return bad
+
 
 
 def main() -> None:

@@ -8,18 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bbbd9646aa639871",
+            "id": "4bc839ac8aa6415b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings.md",
+                "file": "Lists.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b24c9e746d8f8a4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Strings.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,7 +140,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -157,21 +164,23 @@
       "command-palette:Відкрити меню команд": false
     }
   },
-  "active": "bbbd9646aa639871",
+  "active": "8b24c9e746d8f8a4",
   "lastOpenFiles": [
-    "Numbers.md",
+    "Lists.md",
+    "images_example.py",
+    "Functions.md",
     "Modules.md",
+    "0 -Markdown (re)introduction.md",
     "Iteration.md",
+    "Type.md",
+    "Strings.md",
+    "Numbers.md",
     "Headers.md",
     "Design.md",
     "1 - Natural language processing.md",
-    "Strings.md",
-    "Markdown (re)introduction.md",
-    "Lists.md",
     "Errors.md",
     "Boolean.md",
     "2-Recommendation Systems.md",
-    "Type.md",
     "Conditionals.md",
     "loop_practice_newyear.py",
     "List.md",
