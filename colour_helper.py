@@ -48,7 +48,18 @@ def pixel_to_name(pixel: tuple) -> str:
 
     if red < 55 and blue < 55 and green > 130:
         return "green"
-    elif red > 170 and blue < 60 and green < 60:
+    
+    # Jelly bean colours
+    elif red < 80 and green > 90 and blue < 50:
+        return "jelly bean green"
+    elif  240 > red > 210 and 220 > green > 180 and blue < 50:
+        return "yellow"
+    elif 220 > red > 50 and blue > 170 and  220 > green > 70:
+        return "blue"
+    elif  10 > red and  green < 30 and blue > 80:
+        return "dark blue"
+    
+    elif red > 170 and blue < 20 and green > 10:
         return "red"
     else:
         return "colour unknown"
@@ -56,3 +67,4 @@ def pixel_to_name(pixel: tuple) -> str:
 
 # print(pixel_to_name((180, 3, 2)))
 # print(pixel_to_name((255, 255, 255)))
+print(pixel_to_name((70, 79, 196)))
