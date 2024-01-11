@@ -8,6 +8,9 @@
 # Version 0.2
 # Count and report on the percentage of green beans
 
+# Version 0.3
+# Count and report on the percentage of yellow and blue beans
+
 RED_PIXEL  = (160,0,0)
 GREEN_PIXEL = (0, 160, 0)
 YELLOW_PIXEL = (220, 183, 3)
@@ -87,7 +90,6 @@ bp_percentage = bp_count / tp * 100
 
 tp = jelly_bean_im.width * jelly_bean_im.height
 dbp_percentage = dbp_count / tp * 100
-
 
 # print(rp) 
 # print(rp_count)
