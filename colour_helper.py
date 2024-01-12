@@ -61,10 +61,16 @@ def pixel_to_name(pixel: tuple) -> str:
     
     elif red > 170 and blue < 20 and green > 10:
         return "red"
+    
+    # Ball colour
+    elif red > 220 and 90 > blue > 30  and 90 > green > 30:
+        return "red ball"
+    
+
     else:
         return "colour unknown"
     
 
 # print(pixel_to_name((180, 3, 2)))
 # print(pixel_to_name((255, 255, 255)))
-print(pixel_to_name((70, 79, 196)))
+# print(pixel_to_name((70, 79, 196)))
