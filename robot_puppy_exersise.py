@@ -7,9 +7,12 @@
 from PIL import Image 
 import colour_helper
 
+
 bim = Image.open("./Images/Red Ball.jpeg")
 
 rp = []
+xr = []
+yr = []
 
 for y in range(bim.height):
     for x in range(bim.width):
@@ -17,12 +20,35 @@ for y in range(bim.height):
 
         if colour_helper.pixel_to_name(cp) == "red ball":
             rp.append((x,y))
+            xr.append(x)
+            yr.append(y)
 
 rp_count = len(rp)
-m = rp_count // 4
 
-print(rp)
+r = (sum(max(rp)) - sum(min(rp))) // 2
+
+xv = (max(xr) - min(xr)) 
+yv = (max(yr) - min(yr)) 
+
+# Test
+# xv = 148
+# yv = 61
+
+m = (xv, yv)
+
+for m in rp:
+    if rp == m:
+        print(m)
+        break
+
+        
+# print(max(rp))
 print(rp_count)
-print(rp[m])
+print(r)
+print(m)
+
+# print(xv, yv)
+# print(xr)
+# print(yr)
 
 bim.close()
