@@ -19,4 +19,19 @@ with open("./spotify.csv") as f:
             ds.append(
                 (line["artist"], line["song_title"], line["danceability"])
             )
-print(ds)
+# print(ds)
+
+# Task #2
+# Print all the songs that have danceability >= 0.6
+
+with open("./spotify.csv") as f:
+    csv_r = csv.DictReader(f)
+
+    dnc = []
+
+    for line in csv_r:
+        if float(line["danceability"]) >= 0.6:
+            dnc.append(
+                (line["artist"], line["song_title"], line["danceability"])   
+            )
+print(dnc)
