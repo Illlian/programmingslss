@@ -7,31 +7,40 @@
 
 import csv
 
-with open("./spotify.csv") as f:
-    csv_r = csv.DictReader(f)
+def find_all_songs(artists: str) -> list:
 
-    ds = []
+    with open("./spotify.csv") as f:
+        csv_r = csv.DictReader(f)
 
-    for line in csv_r:
-        # print(line)
+        # ds = []
+        s = []
+        for line in csv_r:
+            # print(line)
+            if artists.lower() in line["artist"]:
+                s.append(
+                   (line["artist"], line["song_title"], line["danceability"])
+                )
+        return s
 
-        if "drake" in line["artist"].lower():
-            ds.append(
-                (line["artist"], line["song_title"], line["danceability"])
-            )
-# print(ds)
+            # if "drake" in line["artist"].lower():
+            #     ds.append(
+            #         (line["artist"], line["song_title"], line["danceability"])
+            #     )
+    # print(ds)
 
-# Task #2
-# Print all the songs that have danceability >= 0.6
+    # # Task #2
+    # # Print all the songs that have danceability >= 0.6
 
-with open("./spotify.csv") as f:
-    csv_r = csv.DictReader(f)
+    # with open("./spotify.csv") as f:
+    #     csv_r = csv.DictReader(f)
 
-    dnc = []
+    #     dnc = []
 
-    for line in csv_r:
-        if float(line["danceability"]) >= 0.6:
-            dnc.append(
-                (line["artist"], line["song_title"], line["danceability"])   
-            )
-print(dnc)
+    #     for line in csv_r:
+    #         # Alt version: 
+    #         # if float(song[-1]) >= 0.6
+    #         if float(line["danceability"]) >= 0.6:
+    #             dnc.append(
+    #                 (line["artist"], line["song_title"], line["danceability"])   
+    #             )
+    # print(dnc)
